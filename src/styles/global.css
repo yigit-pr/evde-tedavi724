@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-sans: "Poppins", system-ui, sans-serif;
+  --font-serif: "Poppins", system-ui, sans-serif;
+
+  /* Colors */
+  --color-primary: #0F172A;
+  /* Midnight Blue */
+  --color-accent: #D4B996;
+  /* Warm Sand */
+  --color-background: #FAFAF9;
+  /* Soft Off-White */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+  }
+}
